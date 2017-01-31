@@ -15,5 +15,6 @@ public class GenericExample{
         System.out.println(list.contains(ln));
         String firstName = list.get(1);
         System.out.println(firstName);
+        System.out.println(ln);
     }
 }
