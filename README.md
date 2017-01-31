@@ -1,6 +1,6 @@
 # cps.206 Notes
 
-##Advanced Java COnstruct Concepts
+##Advanced Java Construct Concepts
 1. Exception
 
 2. Generic
@@ -25,3 +25,5 @@ public class GenericExample{
     }
 }
 ```
+##Feb 1, 2017
+
