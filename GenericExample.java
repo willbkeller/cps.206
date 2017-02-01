@@ -16,5 +16,11 @@ public class GenericExample{
         String firstName = list.get(1);
         System.out.println(firstName);
         System.out.println(ln);
+        System.out.println();
+        
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()){
+           System.out.println(iterator.next());
+        }
     }
 }
