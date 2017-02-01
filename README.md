@@ -26,4 +26,23 @@ public class GenericExample{
 }
 ```
 ##Feb 1, 2017
+1. 2-d ArrayList
+```java
+ArrayList<ArrayList<String>> list = new ArrayList<>();
+
+list.get(0); // null
+list.add(new ArrayList<>());
+list.size();// 1 (the empty array list)
+// whole idea, you don’t want a 2-d array list
+```
+2. Alternative
+   make an array of ArrayList
+```java
+ArrayList<String>[] list = new ArrayList[100]
+list.length; //100
+```
+
+###Hashing
+hash - 
+tag - search
 
