@@ -52,7 +52,7 @@ public class SodaBottleTest {
 		sodaBottleTest.testSetLid();
 		sodaBottleTest.testSetLidWithException();
 		sodaBottleTest.testGetSoda();
-      sodaBottleTest.testGetLabel();
+      		sodaBottleTest.testGetLabel();
 
 		System.out.println("All SodaBottle Tests passed");
 	}
