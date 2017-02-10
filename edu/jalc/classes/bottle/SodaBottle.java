@@ -28,6 +28,9 @@ public class SodaBottle {
 	double getCapacity(){ return capacity; }
 	SodaBottleLid getLid(){	return this.lid; }
 	Soda getSoda(){ return this.soda; }
+   SodaBottleLabel getLabel(){
+      return this.label;
+   }
 
 	SodaBottle setLid(SodaBottleLid lid) throws Exception {
 		if(lid == null) throw new Exception("SodaBottleLid cannot be null");
