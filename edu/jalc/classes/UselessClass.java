@@ -1,4 +1,4 @@
-package edu.jalc.classes;
+package edu.jalc.inclass;
 class UselessClass{}//dont need public for [default]
 //public makes it accesible to everyone. It is a visibility modifier 4)
 
